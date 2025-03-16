@@ -4,7 +4,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-public class FileProcessor {
+public class FileHandler {
 	
     public List<String> readAndCleanFile(String filePath) throws IOException {
         List<String> words = new ArrayList<>();

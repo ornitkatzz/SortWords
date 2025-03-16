@@ -4,7 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.sortwords.FileProcessor;
+import com.sortwords.FileHandler;
 import com.sortwords.SortWords;
 import com.sortwords.SortWords.SortResult;
 
@@ -25,7 +25,7 @@ public class FullFlowTest {
         return TEST_FILE_DIR + fileName;
     }
     private static final String OUTPUT_FILE_PATH = "F2.txt";
-    FileProcessor fileProcessor = new FileProcessor();
+    FileHandler fileProcessor = new FileHandler();
 
     @BeforeEach
     public void setUp() throws IOException {

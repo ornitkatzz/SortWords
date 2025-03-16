@@ -1,7 +1,7 @@
 package tests;
 
 import org.junit.jupiter.api.Test;
-import com.sortwords.FileProcessor;
+import com.sortwords.FileHandler;
 import static org.junit.jupiter.api.Assertions.*;
 import java.io.File;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class FileProcessorTest {
-    FileProcessor fileProcessor = new FileProcessor();
+public class FileHandlerTest {
+    FileHandler fileProcessor = new FileHandler();
     private final String TEST_FILE_DIR = "src/tests/testFiles/";
 
     private String getFilePath(String fileName) {

@@ -33,7 +33,7 @@ public class SortWords {
     }
     
     public static SortResult processFile(String filePath, String sortOrder, boolean writeToFile) throws IOException {
-        FileProcessor fileProcessor = new FileProcessor();
+        FileHandler fileProcessor = new FileHandler();
         List<String> words = fileProcessor.readAndCleanFile(filePath);
         
         if (words.isEmpty()) {
